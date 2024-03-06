@@ -345,6 +345,14 @@ border-bottom: 1px solid #ccc;
   align-items: center;
 }
 
+.container-hombre img {
+  height: 245px; 
+  margin-top: 10px;
+  border: 15px solid #adf8df86;
+  margin-left: 10px;
+}
+
+
 .foto-hombre{
   width: 200px;
   height: 180px;
@@ -368,15 +376,27 @@ border-bottom: 1px solid #ccc;
 
 /* botones flotantes */
 
-.botonFlot{
+#botonFlot {
+  display: flex; /* Utiliza flexbox */
+  justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+  gap: 10px; /* Espacio entre los botones */
   position: fixed;
+  bottom: 30px;
+  right: 20%;
+}
+
+.botonFlot {
   background-color: #e8e4e4;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0px 4px 6px;
-  bottom: 20px;
-  right: 20px;
 }
+
+.tamano {
+  width: 30px; /* Ajusta el tamaño de los iconos según tus necesidades */
+  height: auto;
+}
+
 #p1{
   bottom: 20px;
 }
