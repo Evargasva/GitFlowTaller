@@ -146,6 +146,55 @@ border-bottom: 1px solid #ccc;
   padding-right: 0%;
   left: 200px;;
 }
+.secciones {
+    color: white;
+    padding: 10px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo p {
+    margin: 0;
+}
+
+.cerrar {
+    color: white;
+    text-decoration: none;
+}
+
+.selection-type {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.selection-type p {
+    margin: 0;
+}
+
+.selection-type ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+.selection-type select {
+    display: none;
+}
+
+.selection-type {
+  margin-left: 10px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.selection-type select {
+  width: 100%;
+  padding: 5px;
+}
 
 
 .opcionescurriculo .botoncerrar{
